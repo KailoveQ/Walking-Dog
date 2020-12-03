@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dog Walking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        #canvas {
+            display: block;
+            margin: 0 auto;
+            background-color: rgba(200, 180, 222, 0.7);
+            height: 20%vh;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+<script src="index.js"></script>
+<script>
+    let walkDog = new walkingDog();
+    walkDog.start()
+</script>
+
+</html>
